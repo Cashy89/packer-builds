@@ -1,0 +1,10 @@
+{
+	"builders": [{
+		"type": "virtualbox-ovf",
+		"source_path": "",
+		"winrm_username": "vagrant",
+		"winrm_password": "vagrant",
+		"winrm_timeout": "30m",
+		"shutdown_command": "shutdown -s",
+		}]
+}
